@@ -6,6 +6,9 @@ body, html {
   width: 100%;
   font-family: 'Kanit', sans-serif;
   overflow-x: hidden;
+  line-height: 1.7;
+  text-align: center;
+ 
   
 }
 
@@ -168,19 +171,19 @@ transform: translateX(-1%);
 }
 
 .bg1 {
-  background-image: url('images/storage2.jpg');
+  background-image: url('storage2.jpg');
 }
 
 .bg2 {
-  background-image: url('images/Com2.jpg');
+  background-image: url('Com2.jpg');
 }
 
 .bg3 {
-  background-image: url('images/Brain2.jpg');
+  background-image: url('Brain2.jpg');
 }
 
 .bg4 {
-  background-image: url('images/Net2.jpg');
+  background-image: url('Net2.jpg');
 }
 
 
@@ -369,10 +372,14 @@ transform: translateX(-1%);
 
 
 /* หัวข้อ */
-.headd { font-size: 40px;
-    color: #000000;
-  
-  }
+.headd {
+  font-size: 48px;
+  background: linear-gradient(90deg, #00ff91d6, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
 
     /* ตั้งค่าtext */ 
   .text { font-size: 20px;
@@ -391,6 +398,9 @@ transform: translateX(-1%);
 
 
   strong {font-size: 30px;
-    color: #000000;}
+    color: #000000;
+
+  
+  }
 
 
